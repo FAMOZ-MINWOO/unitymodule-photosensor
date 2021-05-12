@@ -93,8 +93,15 @@ namespace FAMOZ.PhotoSensor
 
 
 
+        [Newtonsoft.Json.JsonProperty(nameof(UseLog), ObjectCreationHandling = Newtonsoft.Json.ObjectCreationHandling.Replace)]
+        [SerializeField]
+        private bool useLog;
+        public bool UseLog => useLog;
+
+
         [Newtonsoft.Json.JsonProperty(nameof(SensorDatas), ObjectCreationHandling = Newtonsoft.Json.ObjectCreationHandling.Replace)]
-        [SerializeField] private List<PhotoSensorData> _sensorDatas;
+        [SerializeField] 
+        private List<PhotoSensorData> _sensorDatas;
         public List<PhotoSensorData> SensorDatas => _sensorDatas;
 
     }
