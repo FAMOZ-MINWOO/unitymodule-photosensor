@@ -1,0 +1,16 @@
+{
+    "name": "FAMOZ.PhotoSensor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:766899c1d9191844391bb904e018d31b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

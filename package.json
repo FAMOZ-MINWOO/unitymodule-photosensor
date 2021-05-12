@@ -13,6 +13,7 @@
     "url": "https://www.famoz.co.kr/"
   },
   "dependencies": {
+    "com.famoz.common": "1.0.1"
   },
-  "description" :"FAMOZ 포토센서 사용을 위한 모듈입니다."
+  "description": "FAMOZ \ud3ec\ud1a0\uc13c\uc11c \uc0ac\uc6a9\uc744 \uc704\ud55c \ubaa8\ub4c8\uc785\ub2c8\ub2e4."
 }
